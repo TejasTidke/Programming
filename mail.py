@@ -20,4 +20,4 @@ with smtplib.SMTP('smtp.gmail.com',587) as smtp:
 
     msg = f'Subject: {subject}\n\n{body}'
 
-    smtp.sendmail(formataddr((str(Header('Someone Somewhere', 'utf-8')), EMAIL_ADDRESS)),'tejas_tidke@persistent.com', msg)
+    smtp.sendmail(formataddr((str(Header('Someone Somewhere', 'utf-8')), EMAIL_ADDRESS)),'xyz@xyz.com', msg)
